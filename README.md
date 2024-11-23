@@ -25,7 +25,7 @@ To earn the whitelist spot and future $GLS tokens, you must deploy the nodes on 
 | Storage Space                    | 50-100 GB - More                          |
 | Supported OS Linux               | Ubuntu 20.04-22.04-24.04 LTS              |
 | Internet service                 | 8+ MBit/sec                               |
-| Docker or CLI                    | Docker & Compose v2 latest                |
+| Docker or CLI                    | Docker latest version                     |
 
 `Not yet Docker install? trying auto installing...`
 ```
@@ -42,7 +42,7 @@ curl sSL https://raw.githubusercontent.com/arcxteam/glacier-node/main/install-do
 - If you have any amount of OpBNB or BNB testnet....![Confirm](https://img.shields.io/badge/skip-brightgreen)
 
 **3. Glacier Dashboard Testnet**
-- Sign up for Glacier Task [![Dashboard](https://img.shields.io/badge/CLICK_DASHBOARD-8a2be2)](https://www.glacier.io/points/?inviter=0xbF149aAB2640967BD4685B305A05f1e3EE6ce38b) 
+- Sign up for Glacier Network [![Dashboard](https://img.shields.io/badge/CLICK-DASHBOARD-8a2be2)](https://www.glacier.io/points/?inviter=0xbF149aAB2640967BD4685B305A05f1e3EE6ce38b) 
 - Try focussing on task node running and social galxe
 
 ## 2. Installation - Run Glacier Node
