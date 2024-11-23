@@ -1,5 +1,12 @@
 # A Complete Guide - Run Glacier Network Node, Building The Data-Centric Blockchain to Supercharge AI at Scale
 
+
+
+FAQS
+Participants will receive the $GLS token airdrop in proportion to their **points** and promised **1:1 $GLS** rewards after TGE. For more specific details, please refer to the Glacier Points System Guidance and the future announcements. Season III: Each task comes with different rewards. Usually, the more demanding it is, the more rewarding it will be.
+To earn the whitelist spot and future $GLS tokens, you must deploy the nodes on **Verifier Nodes** Testnet and make sure you have **consistent up time**
+
+
 Using Docker
 Hardware Requirements
 
@@ -37,10 +44,15 @@ docker run -d -e PRIVATE_KEY=$YOUR_PRIVATE_KEY --name glacier-verifier docker.io
 ```
 ![Desktop-screenshot-11-23-2024_07_44_PM](https://github.com/user-attachments/assets/e35e2b7e-021d-4e20-877d-8b6ffb08e4eb)
 
+check logs
+```
+docker logs -f glacier-verifier
+```
 
 ## Visit Node Explorer
 The online status of the verifier nodes on the testnet can be checked here: https://testnet.nodes.glacier.io/status
 
+![Glacier-Nodes-Testnet-11-23-2024_08_23_PM](https://github.com/user-attachments/assets/414ccdc5-b052-4f0c-b88c-e28d10f9be9f)
 ![Glacier-Nodes-Testnet-11-23-2024_08_03_PM](https://github.com/user-attachments/assets/47d40604-da1f-47f6-a26e-a6cf16a20b11)
 
 
