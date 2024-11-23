@@ -21,6 +21,8 @@ Which chain does Glacier testnet support?
 - Transfer your testing assets to opBNB
 - Export the private key from MetaMask
 
+- sign up for Glacier point dashboard https://www.glacier.io/points/?inviter=0xbF149aAB2640967BD4685B305A05f1e3EE6ce38b
+
 ## Own Your Node License
 Currently, we will automatically mint the Node License NFT for you on the OpBNB Testnet the first time the verifier node goes online and is registered on the smart contract, eliminating the need for you to request it manually. Please note that the minting process may take several minutes.
 
