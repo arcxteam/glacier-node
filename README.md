@@ -1,6 +1,6 @@
+![Testnet Node - Full Guides cover (2)](https://github.com/user-attachments/assets/9077ac60-8e6a-41e3-a302-f287f748d23c)
+
 # A Complete Guide - Run Glacier Network Node, Building The Data-Centric Blockchain to Supercharge AI at Scale
-
-
 
 FAQS
 Participants will receive the $GLS token airdrop in proportion to their **points** and promised **1:1 $GLS** rewards after TGE. For more specific details, please refer to the Glacier Points System Guidance and the future announcements. Season III: Each task comes with different rewards. Usually, the more demanding it is, the more rewarding it will be.
