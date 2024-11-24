@@ -48,7 +48,7 @@ curl sSL https://raw.githubusercontent.com/arcxteam/glacier-node/main/install-do
 ## 2. Installation - Run Glacier Node
 **1. Run the command with YOUR_PRIVATE_KEY of Wallet**
 ```
-docker run -d -e PRIVATE_KEY=$YOUR_PRIVATE_KEY --name glacier-verifier docker.io/glaciernetwork/glacier-verifier:v0.0.1
+docker run -d -e PRIVATE_KEY=$YOUR_PRIVATE_KEY --name glacier-verifier docker.io/glaciernetwork/glacier-verifier:v0.0.2
 ```
 
 **EXAMPLE**
