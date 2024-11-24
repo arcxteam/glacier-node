@@ -53,7 +53,7 @@ docker run -d -e PRIVATE_KEY=$YOUR_PRIVATE_KEY --name glacier-verifier docker.io
 
 **EXAMPLE**
 ```diff
-- docker run -d -e PRIVATE_KEY= 0xbangsat69g4s...x) --name glacier-verifier docker.io/glaciernetwork/glacier-verifier:v0.0.1
+- docker run -d -e PRIVATE_KEY= 0xbangsat69g4s...x) --name glacier-verifier docker.io/glaciernetwork/glacier-verifier:v0.0.2
 ```
 
 **2. Check the Command Logs**
