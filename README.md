@@ -48,12 +48,12 @@ curl sSL https://raw.githubusercontent.com/arcxteam/glacier-node/main/install-do
 ## 2. Installation - Run Glacier Node
 **1. Run the command with YOUR_PRIVATE_KEY of Wallet**
 ```
-docker run -d -e PRIVATE_KEY=$YOUR_PRIVATE_KEY --name glacier-verifier docker.io/glaciernetwork/glacier-verifier:v0.0.2
+docker run -d -e PRIVATE_KEY=$YOUR_PRIVATE_KEY --name glacier-verifier docker.io/glaciernetwork/glacier-verifier:v0.0.3
 ```
 
 **EXAMPLE**
 ```diff
-- docker run -d -e PRIVATE_KEY= 0xbangsat69g4s...x) --name glacier-verifier docker.io/glaciernetwork/glacier-verifier:v0.0.2
+- docker run -d -e PRIVATE_KEY= 0xbangsat69g4s...x) --name glacier-verifier docker.io/glaciernetwork/glacier-verifier:v0.0.3
 ```
 
 **2. Check the Command Logs**
@@ -64,7 +64,14 @@ docker logs -f glacier-verifier
 
 ![Desktop-screenshot-11-23-2024_07_44_PM](https://github.com/user-attachments/assets/e35e2b7e-021d-4e20-877d-8b6ffb08e4eb)
 
-## 3. Verifying Run Status
+## 3. Update Vesion
+**1. Command prompt for this
+```
+docker pull glaciernetwork/glacier-verifier:v0.0.3
+```
+
+
+## 4. Verifying Run Status
 **1. Visit Node Explorer**
 
 - The online status of the verifier nodes on testnet can be checked here: https://testnet.nodes.glacier.io/status
