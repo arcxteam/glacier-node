@@ -6,7 +6,7 @@ What is Glacier? Glacier Network is building a programmable, modular and scalabl
 
 ## Here We Go...GAS 
 
-**`This incentivized?` ![Confirm](https://img.shields.io/badge/confirm-yes-brightgreen)**
+**`Is there incentivized?` ![Confirm](https://img.shields.io/badge/confirm-yes-brightgreen)**
 
 > [!IMPORTANT]
 > **FAQs**: Participants will receive the $GLS token airdrop in proportion to their **points** and promised **1:1 $GLS** rewards after TGE. For more specific details, please refer to the Glacier Points System Guidance and the future announcements. **Season III**: Each task comes with different rewards. Usually, the more demanding it is, the more rewarding it will be.
@@ -65,10 +65,17 @@ docker logs -f glacier-verifier
 ![Desktop-screenshot-11-23-2024_07_44_PM](https://github.com/user-attachments/assets/e35e2b7e-021d-4e20-877d-8b6ffb08e4eb)
 
 ## 3. Update Vesion
-**1. Command prompt for this
+**1. Auto Update Command w/ This**
 ```
-docker pull glaciernetwork/glacier-verifier:v0.0.3
+VERSION=v0.0.3
+docker pull glaciernetwork/glacier-verifier:$VERSION && \
+( docker ps -aq --filter "name=glacier-verifier" | grep -q . && docker rm -f glacier-verifier ) || echo "No existing container to stop or remove" && \
+docker images glaciernetwork/glacier-verifier:$VERSION -q | xargs -I {} docker run -d -e PRIVATE_KEY=XxxxxxX --name glacier-verifier {}
 ```
+
+- Input your private key of waller before run this
+- For future update you can edit/replace above `VERSION=v0.0.XXX`
+- For getting update you don't forget an input `PRIVATE_KEY=XXXXX`
 
 
 ## 4. Verifying Run Status
