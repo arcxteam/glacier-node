@@ -27,7 +27,7 @@ To earn the whitelist spot and future $GLS tokens, you must deploy the nodes on 
 | Internet service                 | 8+ MBit/sec                               |
 | Docker or CLI                    | Docker latest version                     |
 
-`Not yet Docker install? trying auto installing...`
+> **Not yet Docker install? try auto installing...**
 ```
 curl sSL https://raw.githubusercontent.com/arcxteam/glacier-node/main/install-docker.sh | bash
 ```
@@ -51,8 +51,8 @@ curl sSL https://raw.githubusercontent.com/arcxteam/glacier-node/main/install-do
 docker run -d -e PRIVATE_KEY=$YOUR_PRIVATE_KEY --name glacier-verifier docker.io/glaciernetwork/glacier-verifier:v0.0.3
 ```
 
-**EXAMPLE**
 ```diff
++ EXAMPLE
 - docker run -d -e PRIVATE_KEY= 0xbangsat69g4s...x) --name glacier-verifier docker.io/glaciernetwork/glacier-verifier:v0.0.3
 ```
 
@@ -64,17 +64,19 @@ docker logs -f glacier-verifier
 
 ![Desktop-screenshot-11-23-2024_07_44_PM](https://github.com/user-attachments/assets/e35e2b7e-021d-4e20-877d-8b6ffb08e4eb)
 
-## 3. Update Vesion
+## 3. Update Version
 **1. Auto Update Command w/ This**
+
+`Input your private-key wallet before run`
+
 ```
 VERSION=v0.0.3
 docker pull glaciernetwork/glacier-verifier:$VERSION && \
 ( docker ps -aq --filter "name=glacier-verifier" | grep -q . && docker rm -f glacier-verifier ) || echo "No existing container to stop or remove" && \
-docker images glaciernetwork/glacier-verifier:$VERSION -q | xargs -I {} docker run -d -e PRIVATE_KEY=XxxxxxX --name glacier-verifier {}
+docker images glaciernetwork/glacier-verifier:$VERSION -q | xargs -I {} docker run -d -e PRIVATE_KEY=XXXXXXXX --name glacier-verifier {}
 ```
 
-- Input your private key of waller before run this
-- For future update you can edit/replace above `VERSION=v0.0.XXX`
+- For the next version update you can edit or replace like `VERSION=v0.0.XXX`
 - For getting update you don't forget an input `PRIVATE_KEY=XXXXX`
 
 
